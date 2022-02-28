@@ -22,8 +22,8 @@ namespace WebApi.Installers
             });
 
             //registering services with associated interface
-            //services.AddSingleton<IPostServices, PostServices>();
-            services.AddScoped<IPostServices, PostServices>();
+            services.AddSingleton<IPostServices, PostServices>();
+            //services.AddScoped<IPostServices, PostServices>();
         }
     }
 }

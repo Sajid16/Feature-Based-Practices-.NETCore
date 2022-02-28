@@ -11,5 +11,8 @@ namespace WebApi.Services.Abstractions
     {
         public bool Add(Posts model, out string error);
         public List<Post> GetAll(out string error);
+        public dynamic GetById(string id, out string error);
+        public bool Update(string id, Posts model, out string error);
+        public bool Delete(string id, out string error);
     }
 }
