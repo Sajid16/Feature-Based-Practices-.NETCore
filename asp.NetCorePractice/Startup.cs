@@ -42,6 +42,11 @@ namespace asp.NetCorePractice
 
             app.UseHttpsRedirection();
 
+            // for jwt authentication
+            app.UseAuthentication();
+            // for jwt authentication
+
+
             app.UseRouting();
 
             app.UseAuthorization();
