@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "asp.NetCorePractice\WebApi.csproj", "{3A089990-CD49-47EC-80FD-A9B4C08C2B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consume-REST-API", "Consume-REST-API\Consume-REST-API.csproj", "{40D40FEB-385C-418D-BBDC-9E06B82B03A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consume-REST-API", "Consume-REST-API\Consume-REST-API.csproj", "{40D40FEB-385C-418D-BBDC-9E06B82B03A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperAPI", "DapperAPI\DapperAPI.csproj", "{428AF144-A206-424B-ACC0-1304D79A1E75}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDB", "UserDB\UserDB.sqlproj", "{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{21EA04C1-B584-4E00-81F0-01582B3B6E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,20 @@ Global
 		{40D40FEB-385C-418D-BBDC-9E06B82B03A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D40FEB-385C-418D-BBDC-9E06B82B03A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D40FEB-385C-418D-BBDC-9E06B82B03A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428AF144-A206-424B-ACC0-1304D79A1E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428AF144-A206-424B-ACC0-1304D79A1E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428AF144-A206-424B-ACC0-1304D79A1E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428AF144-A206-424B-ACC0-1304D79A1E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0DBCBA-749D-4735-867D-D47CD73ED1C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{21EA04C1-B584-4E00-81F0-01582B3B6E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EA04C1-B584-4E00-81F0-01582B3B6E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EA04C1-B584-4E00-81F0-01582B3B6E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EA04C1-B584-4E00-81F0-01582B3B6E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

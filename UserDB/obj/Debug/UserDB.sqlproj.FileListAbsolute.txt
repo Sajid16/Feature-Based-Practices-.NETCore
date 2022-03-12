@@ -1,0 +1,6 @@
+D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\bin\Debug\UserDB.dacpac
+D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\bin\Debug\UserDB.dll
+D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\bin\Debug\UserDB.pdb
+D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\obj\Debug\UserDB.sqlproj.AssemblyReference.cache
+D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\obj\Debug\UserDB.dll
+D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\obj\Debug\UserDB.pdb
