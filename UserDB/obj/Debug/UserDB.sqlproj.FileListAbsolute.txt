@@ -4,3 +4,13 @@ D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\
 D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\obj\Debug\UserDB.sqlproj.AssemblyReference.cache
 D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\obj\Debug\UserDB.dll
 D:\.NETCORE-Practice\Nick_chapsas_tutorials_practice\asp.NetCorePractice\UserDB\obj\Debug\UserDB.pdb
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\bin\Debug\UserDB.dacpac
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\bin\Debug\UserDB.dll
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\bin\Debug\UserDB.pdb
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\UserDB.sqlprojAssemblyReference.cache
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\Model.xml
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\refactor.xml
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\postdeploy.sql
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\predeploy.sql
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\UserDB.dll
+D:\Personal\Feature-Based-Best-Practices-.NETCore\UserDB\obj\Debug\UserDB.pdb

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DapperAPI\\DapperAPI.csproj": {}
+    "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DapperAPI\\DapperAPI.csproj": {}
   },
   "projects": {
-    "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DapperAPI\\DapperAPI.csproj": {
+    "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DapperAPI\\DapperAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DapperAPI\\DapperAPI.csproj",
+        "projectUniqueName": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DapperAPI\\DapperAPI.csproj",
         "projectName": "DapperAPI",
-        "projectPath": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DapperAPI\\DapperAPI.csproj",
-        "packagesPath": "C:\\Users\\sajid\\.nuget\\packages\\",
-        "outputPath": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DapperAPI\\obj\\",
+        "projectPath": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DapperAPI\\DapperAPI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DapperAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sajid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DataAccess\\DataAccess.csproj"
+              "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -70,24 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DataAccess\\DataAccess.csproj": {
+    "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\sajid\\.nuget\\packages\\",
-        "outputPath": "D:\\.NETCORE-Practice\\Nick_chapsas_tutorials_practice\\asp.NetCorePractice\\DataAccess\\obj\\",
+        "projectPath": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal\\Feature-Based-Best-Practices-.NETCore\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sajid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
