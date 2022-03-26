@@ -13,7 +13,9 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDB", "UserDB\UserDB.sql
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{21EA04C1-B584-4E00-81F0-01582B3B6E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{9CA39C28-0A18-4066-9C2B-9FCFDBE64FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{9CA39C28-0A18-4066-9C2B-9FCFDBE64FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreRelationShips", "EFCoreRelationShips\EFCoreRelationShips.csproj", "{D28AC687-A159-4802-B2BB-7837FDF64D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{9CA39C28-0A18-4066-9C2B-9FCFDBE64FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA39C28-0A18-4066-9C2B-9FCFDBE64FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA39C28-0A18-4066-9C2B-9FCFDBE64FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28AC687-A159-4802-B2BB-7837FDF64D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28AC687-A159-4802-B2BB-7837FDF64D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28AC687-A159-4802-B2BB-7837FDF64D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28AC687-A159-4802-B2BB-7837FDF64D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
