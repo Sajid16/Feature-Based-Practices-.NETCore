@@ -14,7 +14,7 @@ namespace EFCoreRelationShips.Entities
         public int UserId { get; set; }
         // single character can only have single weapon 1:1
         public Weapon Weapon { get; set; }
-        // multiple characters can have multiple skills
+        // multiple characters can have multiple skills n:n
         public List<Skill> Skills { get; set; }
     }
 }
