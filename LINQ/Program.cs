@@ -18,6 +18,31 @@ namespace LINQ
                 new Student() { StudentID = 5, StudentName = "Ron" , Age = 15 }
             };
 
+            // use of select clause
+
+            //var queryResult = (from student in studentList
+            //                   select student).ToList();
+            var queryResult = (from student in studentList
+                               select new
+                               {
+                                   studentName = student.StudentName,
+                                   studentId = student.StudentID
+                               }).ToList();
+            //var methodResult = studentList.Select(student => student.Age).ToList();
+            var methodResult = studentList.Select(student => new 
+            {
+                studentName = student.StudentName,
+                studentAge = student.Age
+            }).ToList();
+
+            foreach (var student in queryResult)
+            {
+                Console.WriteLine(student.studentName + " -> "+student.studentId);
+            }
+            // use of select clause
+
+            // --------------------------------------------------------------------
+
             //use of where clause
 
             //query syntax
