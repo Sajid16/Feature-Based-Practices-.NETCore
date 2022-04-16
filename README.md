@@ -8,3 +8,18 @@
   #### -> One to Many relationship
   #### -> One to One relationship
   #### -> Many to Many relationship
+  
+  
+  - Project Name: <b>LINQ</b>
+  - <b>Projection Operators</b>
+	- Select
+	- SelectMany
+  - <b>Filter Operators</b>
+	- Where
+	- OfType
+  - <b>Sorting Operators</b>
+	- OrderBy
+	- OrderByDescending
+	- ThenBy
+	- ThenByDescending
+	- Reverse

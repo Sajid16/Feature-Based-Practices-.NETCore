@@ -24,7 +24,7 @@ namespace LINQ
                     new Techs() { Technology = "Linq" }, 
                     new Techs() { Technology = "C#" }, 
                     new Techs() { Technology = "JavaScript" } } } ,
-                new Student() { StudentID = 2, StudentName = "Moin",  Age = 21, ProgrammingLanguages = new List<Techs>{
+                new Student() { StudentID = 2, StudentName = "John",  Age = 21, ProgrammingLanguages = new List<Techs>{
                     new Techs() { Technology = "Linq" },
                     new Techs() { Technology = "C#" },
                     new Techs() { Technology = "JavaScript" } }  } ,
@@ -76,16 +76,17 @@ namespace LINQ
 
             //var methodResult = studentList.SelectMany(student => student.ProgrammingLanguages).Distinct().ToList();
 
-            var queryResult = (from student in studentList
-                               from skill in student.ProgrammingLanguages
-                               select skill).ToList();
+            //var queryResult = (from student in studentList
+            //                   from skill in student.ProgrammingLanguages
+            //                   select skill).ToList();
 
-            var methodResult = studentList.SelectMany(student => student.ProgrammingLanguages).ToList();
+            //var methodResult = studentList.SelectMany(student => student.ProgrammingLanguages).ToList();
 
-            foreach (var studentInfo in queryResult)
-            {
-                Console.WriteLine(studentInfo.Technology);
-            }
+            //foreach (var studentInfo in queryResult)
+            //{
+            //    Console.WriteLine(studentInfo.Technology);
+            //}
+
             // use of selectmany clause
 
             // --------------------------------------------------------------------
@@ -114,6 +115,54 @@ namespace LINQ
             //}
 
             //use of where clause
+
+            // --------------------------------------------------------------------
+
+            //use of oftype clause
+
+            //List<object> dataSource = new List<object>() { "Sajid", "Mahboob", "Upal", 1, 2, 3, 4 };
+
+            //var querySyntax = (from obj in dataSource
+            //                  where obj is string
+            //                  select obj).ToList();
+
+            //var methodSyntax = dataSource.OfType<int>().Where(obj => obj >= 2).ToList();
+
+            //foreach (var obj in methodSyntax)
+            //{
+            //    Console.WriteLine(obj);
+            //}
+
+            //use of oftype clause
+
+            // --------------------------------------------------------------------
+
+            //use of orederby, thenby clause
+
+            //List<object> dataSource = new List<object>() { "Sajid", "Mahboob", "Upal", 1, 2, 3, 4 };
+
+            //var querySyntax = from student in studentList
+            //                  where student.Age > 18
+            //                  orderby student.Age descending
+            //                  select student;
+            var querySyntax = from student in studentList
+                              orderby student.StudentName, student.Age descending
+                              select student;
+            // var querySyntax = from student in studentList
+            //                  where student.Age > 18
+            //                  orderby student.Age
+            //                  select student;
+
+            // var methodSyntax = studentList.Where(student => student.Age > 18).OrderBy(student => student.Age).ToList();
+            // var methodSyntax = studentList.Where(student => student.Age > 18).OrderByDescending(student => student.Age).ToList();
+            var methodSyntax = studentList.OrderByDescending(student => student.StudentName).ThenByDescending(student => student.Age).ToList();
+
+            foreach (var obj in methodSyntax)
+            {
+                Console.WriteLine(obj.StudentID + "-> " + obj.StudentName+ "-> " + obj.Age);
+            }
+
+            //use of orederby, thenby clause
         }
     }
 }
